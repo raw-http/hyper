@@ -25,8 +25,8 @@ futures-core = { version = "0.3", default-features = false }
 futures-channel = "0.3"
 futures-util = { version = "0.3", default-features = false }
 http = { git = "https://github.com/raw-http/http" }
-http-body = { git = "https://github.com/raw-http/http-body/http-body" }
-http-body-util = { git = "https://github.com/raw-http/http-body/http-body-util" }
+http-body = { git = "https://github.com/raw-http/http-body" }
+http-body-util = { git = "https://github.com/raw-http/http-body" }
 httpdate = "1.0"
 httparse = "1.6"
 h2 = { git = "https://github.com/raw-http/h2" }
@@ -64,7 +64,7 @@ tokio = { version = "1", features = [
 tokio-test = "0.4"
 tokio-util = { version = "0.7", features = ["codec"] }
 tower = { version = "0.4", features = ["make", "util"] }
-url = "2.2"
+url = {git = "https://github.com/raw-http/rust-url"}
 
 [target.'cfg(any(target_os = "linux", target_os = "macos"))'.dev-dependencies]
 pnet_datalink = "0.27.2"
