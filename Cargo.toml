@@ -24,11 +24,12 @@ bytes = "1"
 futures-core = { version = "0.3", default-features = false }
 futures-channel = "0.3"
 futures-util = { version = "0.3", default-features = false }
-http = "0.2"
-http-body = "0.4"
+http = { git = "https://github.com/raw-http/http" }
+http-body = { git = "https://github.com/raw-http/http-body/http-body" }
+http-body-util = { git = "https://github.com/raw-http/http-body/http-body-util" }
 httpdate = "1.0"
 httparse = "1.6"
-h2 = { version = "0.3.9", optional = true }
+h2 = { git = "https://github.com/raw-http/h2" }
 itoa = "1"
 tracing = { version = "0.1", default-features = false, features = ["std"] }
 pin-project-lite = "0.2.4"
