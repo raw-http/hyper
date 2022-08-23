@@ -29,7 +29,7 @@ http-body = { git = "https://github.com/raw-http/http-body" }
 http-body-util = { git = "https://github.com/raw-http/http-body" }
 httpdate = "1.0"
 httparse = "1.6"
-h2 = { git = "https://github.com/raw-http/h2" }
+h2 = { git = "https://github.com/raw-http/h2", optional=true }
 itoa = "1"
 tracing = { version = "0.1", default-features = false, features = ["std"] }
 pin-project-lite = "0.2.4"
